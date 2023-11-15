@@ -395,8 +395,8 @@ function numberToStringInBase(num, base) {
  * @example:
  * 12345, 2    => '1.23e+4'
  */
-function toExponential(num, frD) {
-  return num.toExponential(frD);
+function toExponential(num, fractionDigits) {
+  return num.toExponential(fractionDigits);
 }
 
 /**
